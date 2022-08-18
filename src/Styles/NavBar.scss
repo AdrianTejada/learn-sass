@@ -10,7 +10,7 @@
         font-size: 25px;
     }
 
-    button {
+    .main-button {
         @include buttonStyle($redColor, 30px);
     }
 }
