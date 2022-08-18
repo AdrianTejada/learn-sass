@@ -1,0 +1,20 @@
+@import '../../Styles/Variables.scss';
+
+.button {
+    padding: 20px;
+    background-color: $tertiaryColor;
+    color: $primaryColor;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+
+    transition: background-color 1s,
+                color 1s,
+                padding 1s;
+
+    &:hover {
+        background-color: $primaryColor; 
+        color: $tertiaryColor;
+        padding: 25px;
+    }
+}
