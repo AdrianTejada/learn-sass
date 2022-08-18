@@ -1,8 +1,9 @@
 import React from 'react'
+import './Card.css'
 
-export default function index({header="header", text="text"}) {
+export default function Card({header="header", text="text"}) {
   return (
-    <div>
+    <div className='card'>
         <h2>
             {header}
         </h2>

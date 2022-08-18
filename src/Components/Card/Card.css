@@ -1,1 +1,24 @@
-/*# sourceMappingURL=Card.css.map */
+.card {
+  width: 400px;
+  min-height: 20px;
+  background-color: rgb(41, 0, 144);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card h2 {
+  color: rgb(255, 102, 102);
+  padding: 0px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.card p {
+  color: rgb(255, 219, 153);
+  padding: 0px;
+  margin: 0px;
+}/*# sourceMappingURL=Card.css.map */
