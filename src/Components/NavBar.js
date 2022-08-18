@@ -8,7 +8,7 @@ export default function NavBar() {
         <a>About</a>
         <a>Hello</a>
         <a>Yes</a>
-        <button>button</button>
+        <button className='main-button'>button</button>
     </div>
   )
 }

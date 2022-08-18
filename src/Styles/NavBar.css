@@ -7,7 +7,7 @@
   color: rgb(232, 232, 232);
   font-size: 25px;
 }
-.navbar button {
+.navbar .main-button {
   border: none;
   border-radius: 20px;
   padding: 20px;
