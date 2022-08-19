@@ -12,7 +12,7 @@ $utilities: (
             "3": $base-padding * 4,
             "4": $base-padding * 6,
             "5": $base-padding * 8,
-        )
+        ),
     ),
     "padding-left": (
         "prefix": "pl"
@@ -23,7 +23,7 @@ $utilities: (
             "3": $base-padding * 4,
             "4": $base-padding * 6,
             "5": $base-padding * 8,
-        )
+        ),
     ),
 );
 
@@ -38,7 +38,7 @@ $utilities: (
             }
         } @else {
             .#{$prefix}-#{$k} {
-                #{$property}: $v
+                #{$property}: $v;
             }
         }
     }
