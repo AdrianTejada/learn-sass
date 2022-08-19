@@ -2,6 +2,8 @@ $primaryColor:rgb(255, 102, 102);
 $secondaryColor: rgb(255, 219, 153);
 $tertiaryColor: rgb(41, 0, 144);
 
+$base-padding: 10;
+
 $colorsMap: (
     "primary": $primaryColor,
     "secondary": $secondaryColor,
@@ -9,5 +11,7 @@ $colorsMap: (
     "teal": teal,
     "red": red,
     "yellow": yellow,
-    "aqua": aqua
+    "aqua": aqua,
+    "black": black,
+    "white": white
 );
