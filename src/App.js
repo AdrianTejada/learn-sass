@@ -4,10 +4,27 @@ import './Styles/index.css';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Button text='hover on me'/>
-      <Card header='hello this is header' text='hello this is text'/>
       <div className='responsive-test'>responsive test</div>
+      <div className='row gap-1 justify-center'>
+        <div className='col-12-xs col-5-sm col-3-xl'>
+          <Card/>
+        </div>
+        <div className='col-12-xs col-5-sm col-3-xl'>
+          <Card/>
+        </div>
+        <div className='col-12-xs col-5-sm col-3-xl'>
+          <Card/>
+        </div>
+        <div className='col-12-xs col-5-sm col-3-xl'>
+          <Card/>
+        </div>
+        <div className='col-12-xs col-5-sm col-3-xl'>
+          <Card/>
+        </div>
+      </div>
+
     </div>
   );
 }

@@ -1,12 +1,10 @@
 @import '../../Styles/Variables.scss';
 
 .card {
-    width: 400px;
     min-height: 20px;
     background-color: $tertiaryColor;
     border-radius: 20px;
     padding: 20px;
-    margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

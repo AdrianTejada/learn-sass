@@ -1,10 +1,8 @@
 .card {
-  width: 400px;
   min-height: 20px;
   background-color: rgb(41, 0, 144);
   border-radius: 20px;
   padding: 20px;
-  margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
