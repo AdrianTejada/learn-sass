@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './Components/NavBar';
-import './Styles/HoverButton.css';
+import Button from './Components/Button';
+import Card from './Components/Card';
 
 function App() {
   return (
     <div>
-      <NavBar/>
-      <button className='hello'>hello</button>
-      <button className='hover-button'>hover on me</button>
+      <Button text='hover on me'/>
+      <Card header='hello this is header' text='hello this is text'/>
     </div>
   );
 }

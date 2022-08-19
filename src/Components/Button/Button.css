@@ -1,0 +1,15 @@
+.button {
+  padding: 20px;
+  background-color: rgb(41, 0, 144);
+  color: rgb(255, 102, 102);
+  font-size: 30px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  transition: background-color 1s, color 1s, padding 1s;
+}
+.button:hover {
+  background-color: rgb(255, 102, 102);
+  color: rgb(41, 0, 144);
+  padding: 25px;
+}/*# sourceMappingURL=Button.css.map */
